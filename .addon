@@ -1,0 +1,29 @@
+{
+  "Title": "Singleplayer Core",
+  "Type": "game",
+  "Org": "indiegesindel",
+  "Ident": "sp-core",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [
+    "/resource/*",
+    "/ui/*"
+  ],
+  "HasCode": true,
+  "CodePath": "code",
+  "RootNamespace": "Dm98",
+  "Metadata": {
+    "MinPlayers": 1,
+    "MaxPlayers": 1,
+    "GameNetworkType": "Singleplayer",
+    "MapList": [
+      "spc_playground"
+    ],
+    "MapSelect": "Tagged",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "RankType": "None",
+    "GameCategory": "None"
+  }
+}
