@@ -1,4 +1,5 @@
-﻿using Sandbox.UI;
+﻿using Sandbox.ui;
+using Sandbox.UI;
 
 public class HudRootPanel : RootPanel
 {
@@ -16,6 +17,7 @@ public class HudRootPanel : RootPanel
 
 		AddChild<InventoryBar>();
 		AddChild<PickupFeed>();
+		AddChild<TextGame>();
 	}
 
 	public override void Tick()
